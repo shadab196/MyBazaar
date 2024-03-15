@@ -1,0 +1,125 @@
+
+/*  google font  */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,800;1,400&family=Oswald:wght@700&display=swap');
+*{
+  margin:0;
+  padding :0;
+  box-sizing:border-box;
+
+}
+
+/* font-family: 'Open Sans', sans-serif;
+font-family: 'Oswald', sans-serif; */
+
+/* navbar css */
+.navbar{
+  margin-bottom: 20px;
+  font-family:  'Open Sans', sans-serif;
+  font-size: 17px;
+  line-height: 26px;
+  text-transform: uppercase;
+  box-shadow: 0 8px 6px -6px green;
+  --webkit-box-shadow : 0 8px 6px -6px green;
+  border-bottom: 0.3px solid green !important;
+}
+
+.nav-link{
+  font-weight: 30 !important;
+}
+
+.active{
+  border-bottom: 2px solid green;
+}
+
+.navbar-brand{
+  font-family:'Oswald', sans-serif ;
+  font-weight: 700;
+}
+
+
+/* css for the footer */
+.footer{
+ color: white;
+ margin-top: 20px;
+ padding: 25px;
+ background-color: rgb(151, 166, 153);
+ box-shadow: 6px  green;
+ --webkit-box-shadow : 6px  green;
+ border-top: 3px solid green !important;
+}
+
+
+.footer a{
+  text-decoration: none;
+  color : green;
+  padding:10px;
+}
+
+.footer a:hover{
+  color :green;
+  border-bottom: 1px solid white;
+
+}
+
+
+/* /**********Page not found css */
+
+.pnf-btn{
+  color : black;
+  border:1px solid green;
+  text-decoration: none;
+  padding: 10px;
+  margin-top: 10px;
+}
+.pnf-btn:hover{
+  color:white;
+  background-color: green;
+  border-radius: 20px;
+}
+
+
+
+/* **********conatct us page css */
+
+.col-md-6 {
+  padding: 20px;
+}
+
+.col-md-6 h2 {
+  background-color: rgb(112, 216, 112); /* Using a shade of blue */
+  color: white;
+  border-radius: 12px;
+  padding: 10px 20px; /* Increase padding for better readability */
+  text-align: center;
+  margin-bottom: 20px; /* Add some space between h2 and p */
+}
+
+.col-md-6 p {
+  color: #6c757d; /* Using a shade of grey */
+  font-weight: 500; /* Adjusted font weight for better readability */
+}
+
+
+
+
+/* ************regsiter page css */
+
+ .form-container{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+   margin-bottom: 100px; 
+   flex-direction: column;
+} 
+
+/* Hide Arrows From Input Number */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}
+
